@@ -1,0 +1,60 @@
+:root{
+    --cor-primaria: #667085;
+    --cor-secundaria: #8E2424;
+    --cor-terciaria: #101828;
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.links a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.links a:hover{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+   
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+    color: var(--cor-primaria);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.btn-entrar:hover{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+  
+.btn-cadastrar {
+    background-color: var(--cor-secundaria);
+    color: #FFF;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+  
+.menu .links a {
+    margin-bottom: 2rem;
+}
