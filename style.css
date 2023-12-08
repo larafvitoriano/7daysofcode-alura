@@ -11,6 +11,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    height: 100vh;
+    width: 100%;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -81,4 +86,30 @@ button {
 .principal {
     margin-top: 6rem;
     text-align: center;
+}
+
+.metricas-container {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.metricas-container h1 {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-size: 3.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.metricas-container span {
+    font-weight: 500;
+    font-size: 1.12rem;
+}
+
+.metricas-container p {
+    color: var(--cor-primaria);
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
