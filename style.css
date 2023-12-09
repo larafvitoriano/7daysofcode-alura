@@ -113,3 +113,35 @@ button {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
+
+.secao-imagem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.secao-imagem span {
+    color: var(--cor-secundaria);
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #f9f4f4;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.secao-imagem h1{
+    font-size: 2.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.secao-imagem p {
+    color: var(--cor-primaria);
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+}
+
+.secao-imagem img {
+    width: 80%;
+}
