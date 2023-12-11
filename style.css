@@ -181,3 +181,40 @@ button {
     display: flex;
     gap: 2rem;
 }
+
+.depoimentos {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-depoimentos {
+    font-size: 0.8rem;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.p-depoimentos {
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.avatar {
+    margin-bottom: 1rem;
+}
+
+.colaboradora-depoimentos {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.cargo-depoimentos {
+    color: var(--cor-primaria);
+    font-size: 0.87rem;
+    margin-bottom: 6rem;
+}
