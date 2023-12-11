@@ -145,3 +145,39 @@ button {
 .secao-imagem img {
     width: 80%;
 }
+
+
+/* Seção de vagas abertas */
+  
+.vagas-abertas h3 {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+  
+.vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: var(--cor-terciaria);
+}
+  
+.vaga span.titulo-vaga {
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-size: 1.12rem;
+}
+  
+.vaga .informacoes {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: var(--cor-primaria);
+    display: flex;
+    gap: 2rem;
+}
