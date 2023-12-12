@@ -8,7 +8,7 @@ HTML5 | CSS3
 
 ## Status do Projeto
 
-⚠️ Em construção ⚠️
+Concluído ✅
 
 ## Acesso ao Projeto
 
