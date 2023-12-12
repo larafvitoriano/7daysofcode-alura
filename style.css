@@ -23,6 +23,10 @@ nav {
     padding: 1rem 0;
 }
 
+.navbar img {
+    cursor: pointer;
+}
+
 .links a {
     color: var(--cor-primaria);
     text-decoration: none;
@@ -53,6 +57,11 @@ button {
 .btn-cadastrar {
     background-color: var(--cor-secundaria);
     color: #FFF;
+    opacity: 1;
+}
+
+.btn-cadastrar:hover{
+    opacity: 0.85;
 }
 
 .menu {
@@ -276,4 +285,9 @@ button {
     border-radius: 6px;
     font-size: 1rem;
     margin-left: 1rem;
+    opacity: 1;
+}
+
+#btn-email:hover{
+    opacity: 0.85;
 }
