@@ -186,7 +186,11 @@ button {
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
+    background-color: rgba(195, 25, 25, 0.05);
+    max-width: 80%;
+    margin: 8rem auto;
     align-items: center;
+    padding: 3rem 2rem;
 }
 
 .span-depoimentos {
@@ -216,5 +220,60 @@ button {
 .cargo-depoimentos {
     color: var(--cor-primaria);
     font-size: 0.87rem;
+    margin-bottom: 4rem;
+}
+
+.botao-rodape {
+    display: flex;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.rodape h1 { 
+    margin-bottom: 1.25rem;
+}
+
+.rodape span {
+    color: var(--cor-primaria);
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.rodape p {
+    color: #98A2B3;
+    font-size: 1rem;
+    margin-top: 2rem;
     margin-bottom: 6rem;
+}
+
+.rodape input {
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+}
+
+#email {
+    width: 360px;
+    height: 48px;
+    padding: 1rem;
+}
+
+#email::placeholder {
+    font-size: 1rem;
+}
+
+#btn-email {
+    background-color: var(--cor-secundaria);
+    color: #FFF;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-left: 1rem;
 }
