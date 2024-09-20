@@ -14,5 +14,5 @@ Concluído ✅
 
 Em breve, o projeto será hospedado em um Github Pages.
 
-## Desenvolvedora
+## Desenvolvedor
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/88752895?s=400&u=79424fcf956f8d42af53b3711b5a9f7144c682ed&v=4" width=115><br><sub>Lara Fernanda</sub>](https://github.com/larafvitoriano) |
